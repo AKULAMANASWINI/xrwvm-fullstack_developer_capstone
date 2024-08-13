@@ -6,7 +6,7 @@ from django.contrib import messages
 from datetime import datetime
 import logging
 import json
-from django.views.decorators.csrf import csrf_exemptte
+from django.views.decorators.csrf import csrf_exempt
 from .models import CarMake, CarModel
 from .populate import initiate 
 from django.http import JsonResponse
